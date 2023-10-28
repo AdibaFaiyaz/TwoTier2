@@ -25,14 +25,14 @@ function StudentList()
 
     return (
         <div>
-            <h1 className="text-center my-2">All Student Details</h1>
-            <table style={{ margin: "0px auto", maxWidth: "60%" }} className="table table-striped table-bordered table-success">
+            {/* <h1 className="text-center my-2">All Student Details</h1> */}
+            <table style={{ margin: "20px auto", maxWidth: "55%" }} className="table table-striped 0table-bordered table-muted mt-10">
                 <thead>
                     <tr>
-                        <th className="text-center px-5">Name</th>
-                        <th className="text-center px-5">Email</th>
+                        <th className="text-center ">Name</th>
+                        <th className="text-center ">Email</th>
                         <th className="text-center ">Roll Number</th>
-                        <th className="text-center px-5">Action</th>
+                        <th className="text-center ">Action</th>
                     </tr>
                 </thead>
                 <tbody>

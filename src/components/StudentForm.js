@@ -23,7 +23,7 @@ function StudentForm(props)
             <input defaultValue={props.nameValue} onChange={(event)=>setName(event.target.value)} class="form-control my-3" placeholder="Enter your name" required/>
             <input defaultValue={props.emailValue} onChange={(event)=>setEmail(event.target.value)} class="form-control my-3" placeholder="Enter your email" required/>
             <input defaultValue={props.rollNoValue} onChange={(event)=>setRollNo(event.target.value)} class="form-control my-3" placeholder="Enter your roll number" required/>
-            <button onClick={handleClick} class="btn btn-success d-block mx-auto my-5" type="submit">{props.children}submit</button>
+            <button onClick={handleClick} class="btn btn-success d-block mx-auto my-5" type="submit">{props.children}Submit</button>
         </div>
     )
 }

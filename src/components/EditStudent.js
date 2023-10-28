@@ -42,7 +42,7 @@ function EditStudent() {
         <form onSubmit={handleSubmit}>
             <StudentForm getState={getState} nameValue={data.name} emailValue={data.email}
                 rollNoValue={data.rollNo}>
-                Update student
+                Update student 
             </StudentForm>
         </form>
     )

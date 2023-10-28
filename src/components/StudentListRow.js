@@ -22,7 +22,7 @@ function StudentListRow(props)
             <td>{name}</td>
             <td>{email}</td>
             <td>{rollNo}</td>
-            <td className="d-flex justify-content-center">
+            <td className="d-flex justify-content-between">
                 <button className="btn btn-sm btn-success">
                     <Link className="text-decoration-none text-light" to={"/edit-student/"+ _id}>Edit</Link>
                 </button>

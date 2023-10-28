@@ -8,7 +8,7 @@ import EditStudent from './components/EditStudent';
 
 function App() {
   return (
-    <div className='container'> 
+    <div> 
       <HashRouter>
         <Nav/>
         <Routes>
@@ -18,7 +18,6 @@ function App() {
           <Route path="/edit-student/:id" element={<EditStudent/>}/>
         </Routes>
       </HashRouter>
-
     </div>
   );
 }
